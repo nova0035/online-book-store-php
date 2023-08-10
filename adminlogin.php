@@ -66,6 +66,7 @@
     <link rel="icon" type="image/png" href="IMAGES/ADMIN_LOGIN.png"/>
     <title>Login Admin</title>
     <link rel="stylesheet" href="formstyle.css">
+    <link rel="stylesheet" href="buttonstyle.css">
     
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
@@ -90,6 +91,10 @@
       <input type="submit" name="submit" class="submitBtn" value="Login">
       <span id="error" class="error"></span>
     </form>
+  </div>
+
+  <div class="buttoncontainer">
+    <a href="index.php"class="button-30" role="button">Home Page</a>
   </div>
   <script>
     function validateForm() {

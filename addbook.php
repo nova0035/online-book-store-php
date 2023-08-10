@@ -32,6 +32,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="IMAGES/ADD_BOOK.png"/>
+    <link rel="stylesheet" href="buttonstyle.css">
     <title>Add Book</title>
     
     <style>
@@ -190,6 +191,10 @@ label.l input[type="file"] {
       <span id="error" class="error"></span>
     </form>
   </div>
-  
+  <div class="buttoncontainer">
+    <a href="index.php"class="button-30" role="button">Home Page</a>
+  </div> <div class="buttoncontainer">
+    <a href="admin.php"class="button-30" role="button">Profile</a>
+  </div>
   </body>
 </html>

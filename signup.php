@@ -73,6 +73,7 @@
     <title>Sign Up</title>
     <link rel="icon" type="image/png" href="IMAGES/SIGNUP.png"/>
     <link rel="stylesheet" href="formstyle.css">
+    <link rel="stylesheet" href="buttonstyle.css">
     
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
@@ -103,6 +104,11 @@
       <span id="error" class="error"></span>
     </form>
   </div>
+
+  <div class="buttoncontainer">
+    <a href="index.php"class="button-30" role="button">Home</a>
+  </div>
+
   <script>
     function validateForm() {
       var email = document.forms[0]["email"].value;

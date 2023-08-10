@@ -67,6 +67,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
     <link rel="icon" type="image/png" href="IMAGES/LOGIN.png"/>
+    <link rel="stylesheet" href="buttonstyle.css">
     <link rel="stylesheet" href="formstyle.css">
     
     <style>
@@ -92,6 +93,10 @@
       <input type="submit" name="submit" class="submitBtn" value="Login">
       <span id="error" class="error"></span>
     </form>
+  </div>
+
+  <div class="buttoncontainer">
+    <a href="index.php"class="button-30" role="button">Home</a>
   </div>
   <script>
   function validateForm() {
