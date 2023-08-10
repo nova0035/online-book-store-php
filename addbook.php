@@ -1,8 +1,8 @@
 <?php
   if( isset( $_POST['submit'])){
     
-    $r1 = move_uploaded_file($_FILES['poster']['tmp_name'],"C:/xampp/htdocs/IWD-MICRO-PROJECT/POSTER/" . $_POST['book_name'] . ".jpg");
-    $r2 = move_uploaded_file($_FILES['pdf']['tmp_name'],"C:/xampp/htdocs/IWD-MICRO-PROJECT/BOOKS_PDF/" . $_POST['book_name'] . ".pdf");
+    $r1 = move_uploaded_file($_FILES['poster']['tmp_name'],"F:/xampp/htdocs/online-book-store-php/POSTER/" . $_POST['book_name'] . ".jpg");
+    $r2 = move_uploaded_file($_FILES['pdf']['tmp_name'],"F:/xampp/htdocs/online-book-store-php/BOOKS_PDF/" . $_POST['book_name'] . ".pdf");
 
     if($r1 & $r2){
 

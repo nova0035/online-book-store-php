@@ -142,9 +142,9 @@ if (isset($_POST['submitbutton'])) {
                 if ($input == $keyword) {
                     echo '<div class="col-lg-4">';
                     echo '<div class="w3-card-4 box">';
-                    echo '<img src="' . $data['poster_location'] . '" title="' .$data['fullname'] .' - '. $data['authorname'] . '">';
+                    echo '<img src="' . $data['poster_location'] . '" title="' .$data['fullname'] .' BY '. $data['author_name'] . '">';
                     echo '<div class="w3-container w3-center text">';
-                    echo '<p>' . $data['name'] . '</p>';
+                    echo '<p>' . $data['book_name'] . '</p>';
                     echo '<form action="" method="post">';
                     echo '<input type="hidden" name="bookId" value="' . $data['id'] . '">';
                     echo '<button type="submit" class="button-30" name="deleteButton">Delete</button>';

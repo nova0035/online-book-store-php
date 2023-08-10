@@ -250,7 +250,7 @@ if (!isset($_COOKIE["userid"])) {
                                 if ($input == $keyword) {
     
                                     $flag = TRUE;
-                                    displayBooks($data["name"],$data["fullname"],$data['authorname'],$data['poster_location'],$data['booklocation']);
+                                    displayBooks($data["book_name"],$data["fullname"],$data['author_name'],$data['poster_location'],$data['booklocation']);
                                     
                                 }
                             }

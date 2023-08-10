@@ -1,6 +1,6 @@
 <?php
 if(!(isset($_COOKIE['admin_userid']) && isset($_COOKIE['admin_password']))){
-    echo "<script>alert('You Need To Login To Access This Page'); window.location.href = 'index.php';</script>";
+    echo "<script>alert('You Need To Login To Access This Page'); window.location.href = 'adminlogin.php';</script>";
     exit;
 } else {
     $conn = mysqli_connect("localhost", "root", "", "book_store");   
