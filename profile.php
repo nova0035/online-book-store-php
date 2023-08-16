@@ -152,11 +152,11 @@ if (!(isset($_COOKIE["userid"]) && (isset($_COOKIE["password"])))) {
         <div class="card text-center card-body">
             
             <div class="buttontext">
-                <p class="card-text">Empty</p>
+                <p class="card-text">Logout Account</p>
             </div>
           
             <div class="button">
-                <button class="btn btn-outline-dark homePageButton" id="">Empty</button>
+                <button class="btn btn-outline-dark homePageButton" id="logout">Logout</button>
             </div>
 
         </div>
@@ -179,66 +179,57 @@ if (!(isset($_COOKIE["userid"]) && (isset($_COOKIE["password"])))) {
     </div>
 
 <!-- 2nd row -->
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <!-- container -->
-        <div class="card text-center card-body">
-            
-            <div class="buttontext">
-                <p class="card-text">Logout Account</p>
-            </div>
-          
-            <div class="button">
-                <button class="btn btn-outline-dark homePageButton" id="logout">Logout</button>
-            </div>
 
-        </div>
+<!-- 3rd row -->
+
+<div class="row">
+  <div class="col-12 col-md-6">
+    <!-- container -->
+    <div class="card text-center card-body">
+      
+      <div class="buttontext">
+        <p class="card-text">Change Password</p>
       </div>
-
-      <div class="col-12 col-md-6">
-        <div class="card text-center card-body">
-              <!-- container -->
-              <div class="buttontext">
-                  <p class="card-text">Home Page</p>
-              </div>
-            
-              <div class="button">
-                  <button class="btn btn-outline-dark homePageButton" id="homePage">Home</button>
-              </div>
-          </div>
-        </div>
+      
+      <div class="button">
+        <button class="btn btn-outline-dark homePageButton" id="changePassword">Change</button>
+      </div>
     </div>
-
-    <!-- 3rd row -->
-
-    <div class="row">
-    <div class="col-12 col-md-6">
-        <!-- container -->
-        <div class="card text-center card-body">
-            
-            <div class="buttontext">
-                <p class="card-text">Change Password</p>
+  </div>
+  
+  <div class="col-12 col-md-6">
+    <div class="card text-center card-body">
+      <!-- container -->
+      <div class="buttontext">
+        <p class="card-text">Change Username</p>
+      </div>
+      
+              <div class="button">
+                <button class="btn btn-outline-dark homePageButton" id="changeUsername">Change</button>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="row">
+           
+              <!-- container -->
+              <div class="col-12 col-md-6">
+              <div class="card text-center card-body">
+                    <!-- container -->
+                    <div class="buttontext">
+                        <p class="card-text">Home Page</p>
+                    </div>
+                  
+                    <div class="button">
+                        <button class="btn btn-outline-dark homePageButton" id="homePage">Home</button>
+                    </div>
+                </div>
+              </div>
+       
             </div>
           
-            <div class="button">
-                <button class="btn btn-outline-dark homePageButton" id="changePassword">Change</button>
-            </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6">
-        <div class="card text-center card-body">
-              <!-- container -->
-              <div class="buttontext">
-                  <p class="card-text">Change Username</p>
-              </div>
             
-              <div class="button">
-                  <button class="btn btn-outline-dark homePageButton" id="changeUsername">Change</button>
-              </div>
-
-          </div>
-        </div>
 
     </div>
   </div>
